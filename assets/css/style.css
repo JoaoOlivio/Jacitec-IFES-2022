@@ -1,0 +1,50 @@
+.text-primary{
+    color: #263138!important;
+}
+
+.bg-secundary{
+    background: #050D15!important;
+}
+
+.fs-and-justify-7{
+    font-size: 0.7em;
+    text-align: justify
+}
+
+.fs-7{
+    font-size: 0.6em;
+}
+
+.card-tech{
+    padding: 20px;
+    box-shadow: #263138 9px -9px 0px;
+    border-radius: 20px;
+    color: #263138;
+    border: 1px solid #263138;
+}
+
+.card-tech2{
+    box-shadow: #263138 -9px 9px 0px;
+    color: #263138;
+    border-radius: 20px;
+}
+
+.card-port{
+    background: linear-gradient(147.87deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.16) 100%);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    border: #fff solid 1px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .fs-7{
+        font-size: 1em;
+    }
+    .fs-and-justify-7 {
+        font-size: 1.05em;
+    }
+    .fs-icon{
+        font-size: 1.6em!important;
+    }
+  }
